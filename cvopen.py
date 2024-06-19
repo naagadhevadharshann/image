@@ -15,7 +15,7 @@ image = None
 # Function to convert image to grayscale
 def convert_to_grayscale(img):
     return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-4
+
 # Function to flip the image
 def flip_image(img):
     return cv2.flip(img, 1)
